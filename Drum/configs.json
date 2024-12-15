@@ -3,5 +3,8 @@
   "countdown": 300,
   "country_time": "en-US",
   "upgradeDrums": true,
-  "upgradeSkills": true
+  "delayEachAccount": [1, 81],
+  "upgradeSkills": true,
+  "doTasks": true,
+  "howManyUpgradeForEachSkill": 100
 }
