@@ -28,15 +28,18 @@ To get started with the bot, follow these steps:
 
 ```json
 {
+  "limit": 100,
+  "countdown": 300,
+  "country_time": "en-US",
   "upgradeDrums": true,
+  "delayEachAccount": [1, 81],
   "upgradeSkills": true,
-  "limit": 5, //number of accounts run 1 a row
-  "countdown": 300, //time to restarts all the accounts - count by seconds
-  "country_time": "vi-VN" //timestamp base on the country
+  "doTasks": true,
+  "howManyUpgradeForEachSkill": 100
 }
 ```
 
-### 2. `datas.txt` 🗂️ -
+### 2. `datas.txt` 🗂️ - Get it from [here](https://t.me/KeoAirDropFreeNe/257/6879)
 
 ```txt
 query_id.../user...
@@ -72,6 +75,6 @@ xxx@gmail.com
 💡 Usage:
 
 > You need to `cd` to the file after extract it, example
-> To run the bot, use the following command: `node bot`
+> To run the bot, use the following command: `cd drum-main/drum; node bot`
 
 🎇Enjoy!
