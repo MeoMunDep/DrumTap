@@ -32,7 +32,6 @@ To get started with the bot, follow these steps:
 {
   "limit": 100,
   "countdown": 300,
-  "country_time": "en-US",
   "upgradeDrums": true,
   "delayEachAccount": [1, 81],
   "upgradeSkills": true,
