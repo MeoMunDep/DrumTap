@@ -7,7 +7,6 @@ NC='\033[0m'
 
 echo -ne "\033]0;DrumTap Bot by @MeoMunDep\007"
 
-
 print_green() {
     echo -e "${GREEN}$1${NC}"
 }
@@ -35,7 +34,6 @@ create_default_configs() {
 {
   "limit": 100,
   "countdown": 300,
-  "country_time": "en-US",
   "upgradeDrums": true,
   "delayEachAccount": [1, 1],
   "upgradeSkills": true,
